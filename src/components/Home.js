@@ -4,7 +4,7 @@ import { fetchData } from '../actions'
 
 class AppComponent extends Component {
   static PropTypes = {
-    rate: PropTypes.string.isRequired,
+    entities: PropTypes.object.isRequired,
   }
 
   componentDidMount() {
